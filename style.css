@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    color: white;
+}
+a {
+    color: dodgerblue;
+}
+strong {
+    font-size: 1em;
+    color: #013d4b;
+    text-shadow: 
+        0 0 5px #0FF,
+        0 0 10px #0FF,
+        0 0 20px #0FF,
+        0 0 40px #0FF,
+        0 0 80px #0FF;
+    animation: parpadeo 1.5s infinite alternate;
+}
+@keyframes parpadeo {
+    0% {
+        text-shadow: 
+        0 0 5px  #0FF,
+        0 0 10px #0FF,
+        0 0 20px #0FF,
+        0 0 40px #0FF,
+        0 0 80px #0FF;
+    }
+    100% {
+        text-shadow: 
+        0 0 2px #0FF,
+        0 0 5px #0FF,
+        0 0 10px #0FF,
+        0 0 20px #0FF,
+        0 0 40px #0FF;
+    }
+    }
+
