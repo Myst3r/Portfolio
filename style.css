@@ -41,3 +41,7 @@ a {
     }
     }
 
+.apresentacao {
+    display: flex;
+    align-items: center;
+}
